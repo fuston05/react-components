@@ -1,11 +1,17 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
+
+// components
+import { ModalContainer } from './components/ModalVideoPlayer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        my header
-      </header>
+      
+      <Route path= '/'>
+        <ModalContainer />
+      </Route>
+
     </div>
   );
 }

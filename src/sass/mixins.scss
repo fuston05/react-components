@@ -1,1 +1,8 @@
 // mix-ins
+
+@mixin dFlex($dir, $just, $align) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $just;
+  align-items: $align;
+}
