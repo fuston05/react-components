@@ -10,3 +10,6 @@ info will go here about how to add this component to a react project.
 ## Modal Container Component
 
 ## video Player Component
+
+## Testing
+Test are written using react-testing-library and jest

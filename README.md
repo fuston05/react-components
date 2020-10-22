@@ -1,6 +1,9 @@
 ## react-components
 This is where I test and create my own react components
 
+# ModalVideoPlayer component
+I made this for my portfolio site initially to allow a modal pop up video player for when I have demo videos for my projects. Build on ReactJs, styled with node-sass.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
