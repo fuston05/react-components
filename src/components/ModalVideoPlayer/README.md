@@ -9,6 +9,7 @@
 - pass video url into VideoModalContainer '/videos/videoname.mp4'
 
 ## Modal Container Component
+- takes a url as prop string
 
 ## video Player Component
 - video files must be the following file formats: .mp4, .ogg, .webm.

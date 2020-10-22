@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 
 // components
 import { VidModalContainer } from './components/ModalVideoPlayer';
@@ -10,8 +10,9 @@ function App() {
 
   return (
     <div className="App">
-      
-      <Route path= '/'>
+
+      <Link className= 'link' to= '/modal'>See Video</Link>
+      <Route path= '/modal'>
         <VidModalContainer url= {url} />
       </Route>
 

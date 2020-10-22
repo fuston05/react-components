@@ -1,1 +1,7 @@
 // App styles
+.App{
+  padding: 2%;
+  height: 100vh;
+  width: 100%;
+  @include dFlex(row, center, center);
+}
