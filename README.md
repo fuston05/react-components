@@ -4,6 +4,16 @@ This is where I test and create my own react components
 # ModalVideoPlayer component
 I made this for my portfolio site initially to allow a modal pop up video player for when I have demo videos for my projects. Build on ReactJs, styled with node-sass.
 
+# git large file support
+In order to push anything over 100MB you have to install lfs.
+- download and install git-lfs
+- git lfs install
+- git lfs track "*.psd"
+add file types to be tracked.
+- git add .gitattributes
+
+[git lfs](https://git-lfs.github.com/)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
