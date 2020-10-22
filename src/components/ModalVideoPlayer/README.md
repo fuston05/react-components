@@ -6,6 +6,7 @@
 
 ## Use
 - info will go here about how to add this component to a react project.
+- pass video url into VideoModalContainer '/videos/videoname.mp4'
 
 ## Modal Container Component
 

@@ -1,2 +1,2 @@
 // Modal index
-export {ModalContainer} from './ModalContainer';
+export {VidModalContainer} from './VidModalContainer';

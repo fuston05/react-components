@@ -1,13 +1,14 @@
 // VideoPlayer
 import React from "react";
 
-// import { mp4Video } from '/videos/SS_overView.mp4';
-
-const VideoPlayer = () => {
+const VideoPlayer = ({ url }) => {
+  
+  const extension = url.slice(url.indexOf('.')+1);
+  
   return (
     <>
       <video controls>
-        <source src= '/videos/SS_overView.mp4' type= 'video/mp4'/>
+        <source src= {url} type= {`video/${extension}`}/>
 
         Your browser does not support the video tag.
       </video>

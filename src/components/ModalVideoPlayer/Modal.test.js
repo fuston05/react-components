@@ -5,7 +5,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 
 // components
-import {ModalContainer} from './ModalContainer';
+import {ModalContainer} from './VidModalContainer';
 
 describe('Modal Component', () => {
   test('Renders in the DOM', () => {

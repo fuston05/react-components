@@ -2,14 +2,17 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 // components
-import { ModalContainer } from './components/ModalVideoPlayer';
+import { VidModalContainer } from './components/ModalVideoPlayer';
+
+const url = '/videos/SS_overView.mp4';
 
 function App() {
+
   return (
     <div className="App">
       
       <Route path= '/'>
-        <ModalContainer />
+        <VidModalContainer url= {url} />
       </Route>
 
     </div>
