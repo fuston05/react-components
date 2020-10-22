@@ -1,6 +1,7 @@
 // ModalCont styles
 
 .modalCont{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +12,29 @@
   height: 100%;
   padding: 2%;
   background-color: rgba(0, 0, 0, 0.6);
+
+  .modalClose{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2%;
+    right: 2%;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    cursor: pointer;
+    z-index: 2;
+    
+    &:hover{
+      color: rgba(0, 0, 0, 0.8);
+      background-color: #ddd;
+    }
+  }
 
   video{
     width: 98%;

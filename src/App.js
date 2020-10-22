@@ -10,9 +10,8 @@ function App() {
 
   return (
     <div className="App">
-
       <Link className= 'link' to= '/modal'>See Video</Link>
-      <Route path= '/modal'>
+      <Route exact path= '/modal'>
         <VidModalContainer url= {url} />
       </Route>
 
